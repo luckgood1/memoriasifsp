@@ -1,0 +1,43 @@
+/* inicio do css referente a página Sobre-------------------------------------------*/
+
+#homesobre {
+	height: 100hv;
+    width: 100%;
+    background-color: #359830;
+        		}	
+#homesobre h1 {
+color: white;
+padding: 5px;
+margin: 5px;
+}	
+
+#apresentacao {
+background-color: #fefefe;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 100hv;
+color: black;
+}
+
+.btn-custom {
+        color: white;
+        border-radius: 400px;
+        -webkit-border-radius:400px;
+        -moz-border-radius:400px;
+        text-transform: uppercase;
+        transition: background 0.5s, color 0.5s;
+        padding: 3px 5px;
+            }
+.btn-roxo {
+        /*background: #7c25f8;*/
+        background: rgba(26, 40, 95, 0.9);
+        b
+        }
+.btn-roxo:hover {
+        /*background: #6207e3;*/
+        background: rgba(30, 50, 150, 0.9);
+        color: white;
+        }

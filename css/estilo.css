@@ -1,0 +1,189 @@
+/** @Leandro Santana*/
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+	}
+body	{
+	/*background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);*/
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+		}
+/*customização da barra de navegação criando a classe transparente*/
+nav.navbar-transparente {
+	padding: 15px 0px;
+	/*background: rgba(33,17,1,0.9);*/
+	background: rgba(26, 40, 95, 0.9);
+			}
+.navbar-light .navbar-nav .nav-link {
+	color:white;
+	font-size: 0.6em;
+		}		
+.navbar-light .navbar-nav .nav-link:hover {
+	color:#9bf0e1;	
+	font-size: 0.6em;
+		}
+.navbar-light .navbar-toggler {
+		color: rgba(255,255,255,0.5);
+		border-color: rgba(255,255,255,0.5);
+		margin-right: 10px;
+		}			
+
+.capa 	{
+		background-color:rgba(255, 255, 255, 0.54);
+		padding: 2px;
+		}
+
+/* Estrutura de conteúdo ----------------------------*/
+#home {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding:30px;
+	margin-top: auto;
+	background:rgba(255, 255, 255, 0.54);
+		}		
+
+#apresentacao {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background:rgba(80, 245, 39, 0.38);
+			}
+
+#servicos {
+		background: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+    	}
+.moldura {
+		border:4px solid #999 ;
+		}			    	
+ .albuns {
+ 	padding: 10px 0px;
+ }   	
+footer	{
+		background: rgba(255,255,255,0.8);
+		padding: 50px 0px 20px 0px;
+		position: relative;
+		}
+footer h4 {
+		color: #919496;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		}
+footer .navbar-nav a {
+		color: white;
+		font-size: 0.7em;
+		}
+footer .navbar-nav a:hover {
+		color: black;
+		text-decoration: none;
+		}
+footer ul{
+		list-style: none;
+		}
+footer ul li {
+		float: right;
+		margin: 0 2px;
+		}												
+
+/*Tipografia do texto ----------------------------------*/
+h1 		{
+		font-weight: 200px;
+		letter-spacing: -0.05em;
+		margin-bottom: 50px;
+		color: rgba(15, 99, 11, 0.75);
+		}	
+h2 		{
+		font-size: 3em;
+		font-weight: 700;
+		letter-spacing: -0.04em;
+		}
+h3 		{
+		font-size: 2em;
+		font-weight: 700;
+		letter-spacing: -0.04em;
+		}
+p 		{
+	color: black;
+}
+/* inicio do css referente a página Sobre-------------------------------------------*/
+
+#homesobre {
+	height: 20%;
+    width: 100%;
+    background-color: #359830;
+        		}	
+#homesobre h1 {
+color: white;
+padding: 0;
+margin: 0;
+}	
+  
+#etica {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+}
+#etica p {
+color: white;
+}
+/* Fim do CSS da página Sobre ------------------------------------------*/
+
+/*inicio do CSS da página Memórias -------------------------------------*/
+#homememoria {
+	background-image: url(imagens/ifsp-spo2.jpg);		
+				/*url("imagens/ruido.png"),
+				linear-gradient(30deg,#ff4169,#7c26f8);*/
+				
+	background-attachment: fixed;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding:20px;
+	margin-top: 0;
+	/*background:rgba(255, 255, 255, 0.54);*/
+	font-family: Helvetica,Arial,sans-serif;
+	
+		}
+
+
+
+
+/*Fim do CSS da página Memórias ----------------------------------------*/
+
+                 /* MIDIAS QUERY*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+h1 {font-size: 1em;}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+h1 {font-size: 1em;}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+h1 {font-size: 2em;}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+h1 {font-size: 2em;}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+h1 {font-size: 2em;}
+}
+

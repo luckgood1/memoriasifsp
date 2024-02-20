@@ -1,0 +1,84 @@
+/* inicio do css referente a página Sobre-------------------------------------------*/
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    }
+body    {   
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+        }
+/* Estrutura de conteúdo ----------------------------*/
+#homesobre {
+	height: 100hv;
+    width: 100%;
+    background-color: #359830;
+    padding: 5px;
+    margin-top: 7px;
+    
+        		}	
+#homesobre h1 {
+color: white;
+padding: 5px;
+margin: 5px;
+}	
+
+#apresentacao {
+background-color: #fefefe;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 100hv;
+color: black;
+padding: 5px;
+margin-bottom: 10px;
+}
+h2 {
+font-size: 1.5em;
+font-weight: bold;
+padding: 15px;
+}
+p {
+ font-weight: 400;
+ line-height: 1.5em; 
+ }
+#etica {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+padding: 5px;
+
+}
+#etica p {
+color: white;
+}
+
+#creditos {
+background-color: #fefefe;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 100hv;
+color: black;
+}
+#referencia {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+}
+#referencia p {
+color: white;
+}

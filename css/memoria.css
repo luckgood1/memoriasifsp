@@ -1,0 +1,107 @@
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+	}
+body	{	
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+		}
+/* Estrutura de conteúdo ----------------------------*/
+#homememoria {
+	
+	height: 100hv;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding:20px;
+	margin-top: 0;
+					
+		}
+#apresentacaomemoria {
+	height: 100hv;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background:rgba(80, 245, 39, 0.38);
+			}
+#apresentacaomemoria2 {
+	height: 100hv;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background:rgba(80, 245, 39, 0.38);
+			}			
+
+#servicosmemoria {
+	    height: 100hv;
+		background: white;
+		padding-top: 20px;
+		padding-bottom: 20px;
+    	}
+.postagem {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background:rgba(80, 245, 39, 0.10);
+}
+   
+/*formatação dos links*/
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #305f00;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background: #fff;
+    text-decoration: none;
+}
+/*formatação geral*/
+h1 {
+    color: #4e4e4e;
+    /*font-size: 2.5em;*/
+}
+
+h2 {
+    color: #f7b600;
+    padding: 1px;
+}
+
+h3 {
+    color: #f7b600;
+    padding: 1px;
+   
+}
+h4 {
+    color: #666666;
+    padding: 1px;
+   font-size: 1em;
+}
+
+ /*-- botoes da sub-paginas*/  
+ .btn-custom {
+		color: white;
+		border-radius: 500px;
+		-webkit-border-radius:500px;
+		-moz-border-radius:500px;
+		text-transform: uppercase;
+		transition: background 0.5s, color 0.5s;
+		padding: 10px 15px;
+		}
+.btn-roxo {
+		background: #7c25f8;
+		}
+.btn-roxo:hover {
+		background: #6207e3;
+		color: white;
+		}
