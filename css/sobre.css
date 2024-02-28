@@ -1,32 +1,40 @@
+
 /* inicio do css referente a página Sobre-------------------------------------------*/
 html, body {
     height: 100%;
     overflow-x: hidden;
     }
-body    {   
+body    {
     background-attachment: fixed;
     font-family: Helvetica,Arial,sans-serif;
         }
 /* Estrutura de conteúdo ----------------------------*/
 #homesobre {
-	height: 100hv;
+    height: 100hv;
     width: 100%;
     background-color: #359830;
     padding: 5px;
     margin-top: 7px;
     
-        		}	
-#homesobre h1 {
+        		}
+ /* Estilo do título da página Sobre */
+  /*deixar a fonte em bold e tamanho h1*/
+ #homesobre h1 {
+font-size: 2em;
+font-weight: bold;
+padding: 10px;
+margin: 0;
 color: white;
-padding: 5px;
-margin: 5px;
-}	
+}
+/* Estilo do conteúdo da página Sobre */
 
-#apresentacao {
+
+#apresentacao {   
+/*bacground somente com a imagem fundo-textura.jpg*/
 background-color: #fefefe;
 background-image: url("imagens/fundo-textura.jpg");
 background-size: cover;
-opacity: 1;
+opacity: 0.9;
 mix-blend-mode: multiply;
 transition: background .3s,border-radius .3s,opacity .3s;
 height: 100hv;
@@ -35,13 +43,66 @@ padding: 5px;
 margin-bottom: 10px;
 }
 h2 {
-font-size: 1.5em;
+font-size: 1.6em;
 font-weight: bold;
 padding: 15px;
 }
+/* criar espaçamento entre paragrafos*/
+#apresentacao p {
+    opacity: 0.9;
+    font-size: 1em;    
+    line-height: 1.2em; 
+ }
+#etica {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+padding: 5px;
+
+}
+#etica p {
+color: white;
+line-height: 1.2em; 
+}
+
+#creditos {
+background-color: #fefefe;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 100hv;
+color: black;
+line-height: 1.2em; 
+}
+#referencia {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+}
+#referencia p {
+color: white;
+line-height: 1.2em; 
+}
+/* fim do css referente a página Sobre-------------------------------------------*/
+/* Path: css/sobre.css */
+/* inicio do css referente a página Sobre-------------------------------------------*/
+/*
 p {
- font-weight: 400;
- line-height: 1.5em; 
+    opacity: 0.9;
+    font-size: 1em;    
+    line-height: 1.2em; 
  }
 #etica {
 background-color: #005cab;
@@ -82,3 +143,100 @@ color: white;
 #referencia p {
 color: white;
 }
+/* inicio do css referente a página Sobre----------------------------------------
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    }
+body    {   
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+        }
+/* Estrutura de conteúdo ---------------------------
+#homesobre {
+	height: 100hv;
+    width: 100%;
+    background-color: #359830;
+    padding: 5px;
+    margin-top: 7px;
+    
+        		}
+ /* Estilo do título da página Sobre */
+  /*deixar a fonte em bold e tamanho h1
+ #homesobre h1 {   
+font-size: 2em;
+font-weight: bold;
+padding: 10px;
+margin: 0;
+color: white;
+}
+/* Estilo do conteúdo da página Sobre 
+
+#apresentacao {
+    /*imagem fundo-textura.jpg apareça como background
+    background-color: #fefefe;
+    background-image: url("imagens/fundo-textura.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    mix-blend-mode: multiply;
+    transition: background .3s,border-radius .3s,opacity .3s;
+    height: 100hv;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    }
+/* Estilo do título da página Sobre */
+/*deixar a fonte em bold e tamanho h2
+h2 {
+font-size: 1.6em;
+font-weight: bold;
+padding: 15px;
+}
+/* criar espaçamento entre paragrafos
+#apresentacao
+p {
+    opacity: 0.9;
+    font-size: 1em;    
+    line-height: 1.2em; 
+ }
+#etica {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+padding: 5px;
+
+}
+#etica p {
+color: white;
+}
+
+#creditos {
+background-color: #fefefe;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 100hv;
+color: black;
+}
+#referencia {
+background-color: #005cab;
+background-image: url("imagens/fundo-textura.jpg");
+background-size: cover;
+opacity: 1;
+mix-blend-mode: multiply;
+transition: background .3s,border-radius .3s,opacity .3s;
+height: 50%;
+color: white;
+}
+#referencia p {
+color: white;
+}
+/* fim do css referente a página Sobre------------------------------------------
+/* Path: css/sobre.css */

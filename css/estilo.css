@@ -62,16 +62,28 @@ nav.navbar-transparente {
 		}			    	
  .albuns {
  	padding: 10px 0px;
- }   	
-footer	{
-		background: rgba(255,255,255,0.8);
-		padding: 50px 0px 20px 0px;
-		position: relative;
+ }  
+ .albuns img {
+ 	width: 100%;
+ 	height: auto;
+ 	transition: 0.3s;
+ 	}
+	 .albuns img:hover {
+		 	transform: scale(1.1);
+ 	}
+/* Rodapé -------------------------------------------*/
+
+/* ajustar o footer para que as imagens fiquem alinhada e centralizada*/
+footer .navbar-nav {
+		display: flex;
+		justify-content: center;
 		}
-footer h4 {
-		color: #919496;
-		font-size: 0.8em;
-		text-transform: uppercase;
+footer .navbar-nav img {
+		width: 30px;
+		height: 30px;
+		}
+footer .navbar-nav img:hover {
+		transform: scale(1.1);
 		}
 footer .navbar-nav a {
 		color: white;
@@ -87,7 +99,8 @@ footer ul{
 footer ul li {
 		float: right;
 		margin: 0 2px;
-		}												
+		}
+
 
 /*Tipografia do texto ----------------------------------*/
 h1 		{
@@ -160,30 +173,47 @@ color: white;
 /*Fim do CSS da página Memórias ----------------------------------------*/
 
                  /* MIDIAS QUERY*/
-/* Extra small devices (portrait phones, less than 576px)*/
+/*ajustar os estilos para diferentes tamanhos de tela */
+/*Aqui é o CSS que vai ser aplicado para cada tamanho de tela,
+de acordo com o tamanho da tela, o CSS vai aplicar o
+estilo correspondente ao tamanho da tela, de acordo com o
+que foi definido no
+
 @media (max-width: 575.98px) {
-h1 {font-size: 1em;}
+h1 {font-size: 1em;
+}	*/		
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+h1 {font-size: 1em;
 
 }
 
 /* Small devices (landscape phones, 576px and up)*/
+
 @media (min-width: 576px) and (max-width: 767.98px) {
-h1 {font-size: 1em;}
+h1 {font-size: 1em;
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-h1 {font-size: 2em;}
+h1 {font-size: 2em;
 }
 
 /* Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
-h1 {font-size: 2em;}
+h1 {font-size: 2em;
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
+
 @media (min-width: 1200px) {
 h1 {font-size: 2em;}
 }
+
+/* Fim do CSS da página Memórias ----------------------------------------*/
 
