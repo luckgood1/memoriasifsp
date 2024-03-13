@@ -13,7 +13,7 @@ body	{
 	overflow-y: hidden;
 	padding:30px;
 	margin-top: auto;
-	background:rgba(255, 255, 255, 0.54);
+	background:rgba(232, 231, 231, 0.2);
 		}		
 
 #apresentacao {
@@ -47,7 +47,7 @@ h1 		{
 		font-size: 2.5em;
 		font-weight: 200px;
 		letter-spacing: -0.05em;
-		color: rgba(6, 90, 0, 0.75);		
+		color: rgba(20, 122, 2, 0.75);		
 		}	
 h2 		{
 	/*deixar uma distância entre h1 e h2 */
