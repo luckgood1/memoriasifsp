@@ -20,7 +20,12 @@ nav.navbar-transparente {
 		color: rgba(255,255,255,0.5);
 		border-color: rgba(255,255,255,0.5);
 		margin-right: 10px;
-		}			
+		}
+/* Estrutura de conteúdo ----------------------------*/		
+p {
+	line-height: 1.5em;
+	text-align: justify;	
+	}					
 
 .capa 	{
 		background-color:rgba(255, 255, 255, 0.54);
