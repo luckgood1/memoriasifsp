@@ -54,12 +54,17 @@ font-size: 1.6em;
 font-weight: bold;
 padding: 15px;
 }
-/* criar espaçamento entre paragrafos*/
-#apresentacao p {
-    opacity: 0.9;
-    font-size: 1em;    
-    line-height: 1.5em; 
- }
+/*paragrafos justificados*/
+#home p {
+text-align: justify;
+}	
+/*criar espaçamento entre paragrafos*/
+#apresentacao
+p {
+opacity: 0.9;
+font-size: 1em;
+line-height: 1.5em;
+}
 #etica {
 background-color: #2c66ce;
 background-image: url("imagens/fundo-textura.jpg");
