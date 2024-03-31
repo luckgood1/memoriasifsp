@@ -71,7 +71,6 @@ h2 {
 
 #etica {
 	background-color: #2c66ce;
-	background-image: url("imagens/fundo-textura.jpg");
 	background-size: cover;
 	opacity: 1;
 	mix-blend-mode: multiply;
@@ -87,7 +86,7 @@ h2 {
 
 #creditos {
 	background-color: #fefefe;
-	background-image: url("imagens/fundo-textura.jpg");
+	background-image: url("../imagens/fundo-textura.jpg");
 	background-size: cover;
 	opacity: 1;
 	mix-blend-mode: multiply;
