@@ -155,7 +155,8 @@ h3 {
 
 p {
 	color: black;
-	line-height: 1.5em; /*espaçamento entre as linhas do texto*/
+	line-height: 1.5em;
+	/*espaçamento entre as linhas do texto*/
 }
 
 /* inicio do css referente a página Sobre-------------------------------------------*/
@@ -188,6 +189,21 @@ p {
 }
 
 /* Fim do CSS da página Sobre ------------------------------------------*/
+
+/* Inicio do CSS da página Historia -------------------------------------- */
+.history-table {
+	width: 100%;
+	overflow-x: scroll;
+	display: inline-block;
+}
+
+.th-short {
+	min-width: 100px;
+}
+
+.th-long {
+	min-width: 800px;
+}
 
 /*inicio do CSS da página Memórias -------------------------------------*/
 #homememoria {
@@ -228,14 +244,16 @@ h1 {font-size: 1em;
 	h1 {
 		font-size: 1em;
 	}
+
 	h2 {
 		font-size: 1em;
 	}
-		.albuns img {
+
+	.albuns img {
 		width: 100%;
 		height: auto;
-		transition: 0.3s;	
-	}	
+		transition: 0.3s;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -244,14 +262,16 @@ h1 {font-size: 1em;
 	h1 {
 		font-size: 1em;
 	}
+
 	h2 {
 		font-size: 1em;
-	}	
+	}
+
 	.albuns img {
 		width: 100%;
 		height: auto;
-		transition: 0.3s;	
-	}	
+		transition: 0.3s;
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -259,14 +279,16 @@ h1 {font-size: 1em;
 	h1 {
 		font-size: 2em;
 	}
+
 	h2 {
 		font-size: 1.5em;
-	}	
+	}
+
 	.albuns img {
 		width: 100%;
 		height: auto;
-		transition: 0.3s;	
-	}	
+		transition: 0.3s;
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -275,30 +297,34 @@ h1 {font-size: 1em;
 	h1 {
 		font-size: 2em;
 	}
+
 	h2 {
 		font-size: 1.5em;
-	}	
+	}
+
 	.albuns img {
 		width: 100%;
 		height: auto;
-		transition: 0.3s;	
-	}	
+		transition: 0.3s;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {
 	h1 {
-		font-size: 2em;		
+		font-size: 2em;
 	}
+
 	h2 {
 		font-size: 1.5em;
-	}	
+	}
+
 	.albuns img {
 		width: 100%;
 		height: auto;
-		transition: 0.3s;	
-	}	
+		transition: 0.3s;
+	}
 }
 
 /* Fim do CSS da página Memórias ----------------------------------------*/
