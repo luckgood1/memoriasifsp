@@ -180,7 +180,7 @@ p {
 	opacity: 1;
 	mix-blend-mode: multiply;
 	transition: background .3s, border-radius .3s, opacity .3s;
-	height: 50%;
+	padding: 100px 0px;
 	color: white;
 }
 
