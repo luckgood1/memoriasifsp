@@ -7,8 +7,9 @@ body {
 
 body {
 	background-attachment: fixed;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Helvetica,Arial,sans-serif;
 }
+	  
 
 /* Estrutura de conteúdo ----------------------------*/
 #homesobre {
@@ -16,6 +17,7 @@ body {
 	width: 100%;
 	background-color: #359830;
 	padding: 5px;
+	
 }
 
 /* Estilo do título da página Sobre */
@@ -34,7 +36,33 @@ body {
 	line-height: 1.2em;
 	color: white;
 }
-
+.caixa1 {
+	background-color: #f4f7f4;
+	border-radius: 10px;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+	h1 {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 10px;
+		margin: 0;
+		color: #0b7e03;	
+	}
+}
+.caixa2 {
+	background-color: rgb(142, 211, 121);
+	justify-content: center;	
+	padding: 50px;
+	margin: 10px;
+		h1 {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 10px;
+		margin: 0;
+		color: #0b7e03;	
+	}
+}
 /* Estilo do conteúdo da página Sobre */
 
 
@@ -47,10 +75,9 @@ body {
 	mix-blend-mode: multiply;
 	transition: background .3s, border-radius .3s, opacity .3s;
 	color: black;
-	padding: 50px 0px;
-	margin-bottom: 10px;
+	padding: 10px ;
+	margin-bottom: 5px;
 }
-
 h2 {
 	font-size: 1.6em;
 	font-weight: bold;
@@ -70,12 +97,8 @@ h2 {
 }
 
 #etica {
-	background-color: #2c66ce;
-	background-size: cover;
-	opacity: 1;
-	mix-blend-mode: multiply;
-	transition: background .3s, border-radius .3s, opacity .3s;
-	padding: 50px 0px;
+	background-color: #0440af;	
+	padding: 10px ;
 	color: white;
 }
 
@@ -88,18 +111,22 @@ h2 {
 	background-color: #fefefe;
 	background-image: url("../imagens/fundo-textura.jpg");
 	background-size: cover;
-	opacity: 1;
+	
 	mix-blend-mode: multiply;
 	transition: background .3s, border-radius .3s, opacity .3s;
-	padding: 50px 0px;
+	padding: 10px ;
 	color: black;
 	line-height: 1.2em;
 }
+.alinha {
+	text-align: center;
+	padding: 20px;
+}
 
 #referencia {
-	background-color: #2c66ce;
+	background-color: #0440af;
 	color: white;
-	padding: 50px 0px;
+	padding: 10px ;
 }
 
 #referencia p {
