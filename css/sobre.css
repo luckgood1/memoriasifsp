@@ -16,17 +16,17 @@ body {
 	height: 100hv;
 	width: 100%;
 	background-color: #359830;
-	padding: 5px;
+	padding: 20px;
 	
 }
 
 /* Estilo do título da página Sobre */
 /*deixar a fonte em bold e tamanho h1*/
 #homesobre h1 {
-	font-size: 2em;
+	font-size: 1.4em;
 	font-weight: bold;
-	padding: 10px;
-	margin: 0;
+	padding: 5px;
+	margin: 10px;
 	color: white;
 }
 
@@ -50,10 +50,9 @@ body {
 		color: #0b7e03;	
 	}
 }
-.caixa2 {
-	background-color: rgb(142, 211, 121);
+.caixa2 {	
 	justify-content: center;	
-	padding: 50px;
+	padding: 5px;
 	margin: 10px;
 		h1 {
 		font-size: 1.5em;
@@ -134,13 +133,13 @@ h2 {
 	line-height: 1.5em;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 300px) and (max-width: 767.98px) {
 	h1 {
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	h2 {
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 }

@@ -12,8 +12,8 @@ body	{
 	overflow-x: hidden;
 	overflow-y: hidden;
 	padding:30px;
-	margin-top: auto;
-	margin-bottom: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background:rgba(232, 231, 231, 0.2);
 		}		
 
@@ -24,7 +24,7 @@ body	{
 	background:rgba(80, 245, 39, 0.38);
 			}
 p {
-font-weight: 400;
+font-weight: 100px;
  line-height: 1.5em;
 }			
 
@@ -44,9 +44,10 @@ font-weight: 400;
 /*Tipografia do texto ----------------------------------*/
 h1 		{
 	/*deixar uma distância entre h1 e h2 */
-		margin-bottom: 0.5em;
-		font-size: 2.5em;
-		font-weight: 200px;
+		margin-bottom: 0.1em;
+		margin-top: 1em;
+		font-size:1.3em;
+		font-weight: 100px;
 		letter-spacing: -0.05em;
 		color: rgba(20, 122, 2, 0.75);		
 		}	
@@ -78,14 +79,10 @@ p 		{
 	line-height: 1.5em; /*espaçamento entre as linhas do texto*/
 		}
 
-		@media (min-width: 576px) and (max-width: 767.98px) {
-			h1 {
-				font-size: 1em;
-			}
-		
-			h2 {
-				font-size: 1em;
-			}
+		@media (min-width: 360px) and (max-width: 767.98px) {
+			h1 {font-size: 1em;}		
+			h2 {font-size: 1em;}
+			
 		
 		}
 		
